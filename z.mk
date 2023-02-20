@@ -125,7 +125,8 @@ PRODUCT_PACKAGES += \
     init.z.usb.rc \
     init.recovery.z.rc \
     set_baseband.sh \
-    ueventd.z.rc
+    ueventd.z.rc \
+    loggy.sh
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \

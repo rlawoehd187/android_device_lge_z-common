@@ -132,3 +132,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.data.large_tcp_window_size=true \
     wifi.interface=wlan0
+
+# USB
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.default_usb_mode=0 \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb \
+    ro.debuggable=1 \
+    ro.secure=0 \
+    ro.adb.secure=0
+
